@@ -22,8 +22,7 @@
 </template>
 
 <style scoped>
-nav li:hover,
- nav li.router-link-active,
+ 
  nav li.router-link-exact-active {
    border: 1px solid black;
    cursor: pointer;

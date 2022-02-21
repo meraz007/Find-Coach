@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Coaches from '../views/Coaches.vue'
-//import About from '../views/About.vue'
+import Requests from '../views/Requests.vue'
 const routes = [
   {
     path: '/',
@@ -31,7 +31,7 @@ const routes = [
   {
     path: '/requests',
     name: 'requests',
-    component:null
+    component:Requests
   },
 ]
 

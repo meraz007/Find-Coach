@@ -1,12 +1,5 @@
 <template>
-  <Header/>
+  <div></div>
 </template>
 
-<script>
-import Header from '../components/Coaches/layout/Header.vue'
-export default {
-  components:{
-    Header
-  }
-}
-</script>
+
