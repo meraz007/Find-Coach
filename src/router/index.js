@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Coaches from '../views/Coaches.vue'
 import Requests from '../views/Requests.vue'
+import Registration from '../components/Coaches/CoachRegistration.vue'
 const routes = [
   {
     path: '/',
@@ -26,7 +27,7 @@ const routes = [
   {
     path: '/register',
     name: 'register',
-    component:null
+    component:Registration
   },
   {
     path: '/requests',
